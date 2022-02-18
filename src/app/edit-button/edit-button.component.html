@@ -1,0 +1,12 @@
+<div class="center">
+<button type="button" (click)="onEditClick()"[ngClass]="{'green' : toggle, 'red': !toggle}">Change Color</button>
+
+<div *ngIf="toggle; else noToggle">
+    <p class="green">{{ message }}</p>
+</div>
+
+<ng-template #noToggle>
+    <p class="red">{{ message }}</p>
+</ng-template>
+
+</div>
