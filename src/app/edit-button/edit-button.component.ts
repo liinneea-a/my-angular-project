@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class EditButtonComponent {
   message = 'Hello World';
-  showHelloWorld = false;
   toggle = false;
 
   onEditClick() {
