@@ -18,4 +18,4 @@ Navigera till projektmappen:<br>
 Srkiv följande kommando för att starta servern:<br>
 `ng serve --open`
 
-### Erik Matsegård
+
